@@ -7,6 +7,6 @@
         public double RequestedEnergyIn { get; set; }
         public double HappinessPerTickPerPop { get; set; }
         public int Health { get; set; }
-        
+
     }
 }
