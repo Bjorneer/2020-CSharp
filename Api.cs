@@ -241,7 +241,6 @@ namespace DotNet
             {
                 Console.WriteLine(await response.Content.ReadAsStringAsync());
                 Console.WriteLine("Fatal Error: could not end game");
-                Environment.Exit(1);
             }
         }
     }
